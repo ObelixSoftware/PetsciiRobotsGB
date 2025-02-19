@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b8fb445d-2f6a-4cf5-9867-d81bcf7cb938",
+  "name": "map",
+  "symbol": "bg_map",
+  "width": 133,
+  "height": 65,
+  "imageWidth": 1064,
+  "imageHeight": 520,
+  "filename": "map.png",
+  "tileColors": "",
+  "autoColor": false
+}

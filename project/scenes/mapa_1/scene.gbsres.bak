@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "a3a51234-f0dd-46cb-8e58-ca25fe723110",
+  "_index": 0,
+  "name": "Mapa 1",
+  "backgroundId": "4b384e7a-32b2-44e2-8667-82bf0e2064be",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f3f+007+0f!008+0f4+007+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f5+004+0f!00a+0f5+004+0f!00a+0f5+004+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 240,
+  "y": 161,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

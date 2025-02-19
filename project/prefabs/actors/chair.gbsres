@@ -1,0 +1,29 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "cbc1e7c6-9667-4727-b96c-ed60a40801ff",
+  "name": "Chair",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "1bf0f13a-b076-4575-aef8-f8e6e155d4f7",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_ACTOR_PUSH",
+      "args": {
+        "continue": false
+      },
+      "id": "d29af1ef-39c8-4715-9521-25b47122e4df",
+      "children": {}
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

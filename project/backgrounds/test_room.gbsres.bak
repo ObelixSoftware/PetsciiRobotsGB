@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "4b384e7a-32b2-44e2-8667-82bf0e2064be",
+  "name": "test_room",
+  "symbol": "bg_test_room",
+  "width": 40,
+  "height": 18,
+  "imageWidth": 320,
+  "imageHeight": 144,
+  "filename": "test_room.png",
+  "tileColors": "0014+80f+0019+80f+0019+80f+0019+80f+0019+80f+0019+80f+0019+80f+0019+80f+0019+80f+0019+80f+0019+80f+0019+80f+0019+80f+0019+80f+0019+80f+007d+",
+  "autoColor": false
+}

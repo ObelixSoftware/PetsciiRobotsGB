@@ -1,0 +1,170 @@
+{
+  "_resourceType": "actor",
+  "id": "11f5ecb7-3f08-4940-b90b-6bbe161bb68e",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "c1dd1c1e-40ba-44b5-874e-8751a78ccdad",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "2",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_5",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "7e487d0d-ce51-43eb-9fe8-4c8fc4853d27"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_EFFECTS",
+      "args": {
+        "effect": "flicker",
+        "actorId": "$self$",
+        "distance": 20,
+        "speed": 2,
+        "time": 1.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "1258b2ce-0ec7-4d2a-9940-2474993d8439"
+    },
+    {
+      "command": "EVENT_LAUNCH_PROJECTILE",
+      "args": {
+        "__section": "source",
+        "spriteSheetId": "dabca3e4-7f27-4eb7-8669-fc9020805f02",
+        "spriteStateId": "",
+        "actorId": "$self$",
+        "x": 0,
+        "y": 0,
+        "directionType": "direction",
+        "otherActorId": "$self$",
+        "direction": "left",
+        "angle": 0,
+        "angleVariable": "L0",
+        "targetActorId": "$self$",
+        "initialOffset": 0,
+        "speed": 2,
+        "animSpeed": 15,
+        "lifeTime": 0.5,
+        "loopAnim": true,
+        "destroyOnHit": true,
+        "collisionGroup": "2",
+        "collisionMask": [
+          "1",
+          "player"
+        ],
+        "__collapse": true
+      },
+      "id": "3c78382a-c796-421b-88dc-dae29f36c6e6"
+    },
+    {
+      "command": "EVENT_LAUNCH_PROJECTILE",
+      "args": {
+        "__section": "source",
+        "spriteSheetId": "dabca3e4-7f27-4eb7-8669-fc9020805f02",
+        "spriteStateId": "",
+        "actorId": "$self$",
+        "x": 0,
+        "y": 0,
+        "directionType": "direction",
+        "otherActorId": "$self$",
+        "direction": "up",
+        "angle": 0,
+        "angleVariable": "L0",
+        "targetActorId": "$self$",
+        "initialOffset": 0,
+        "speed": 2,
+        "animSpeed": 15,
+        "lifeTime": 0.5,
+        "loopAnim": true,
+        "destroyOnHit": true,
+        "collisionGroup": "2",
+        "collisionMask": [
+          "1",
+          "player"
+        ],
+        "__collapse": true
+      },
+      "id": "fc43bd32-2676-48b5-af41-d4361ecfad08"
+    },
+    {
+      "command": "EVENT_LAUNCH_PROJECTILE",
+      "args": {
+        "__section": "source",
+        "spriteSheetId": "dabca3e4-7f27-4eb7-8669-fc9020805f02",
+        "spriteStateId": "",
+        "actorId": "$self$",
+        "x": 0,
+        "y": 0,
+        "directionType": "direction",
+        "otherActorId": "$self$",
+        "direction": "down",
+        "angle": 0,
+        "angleVariable": "L0",
+        "targetActorId": "$self$",
+        "initialOffset": 0,
+        "speed": 2,
+        "animSpeed": 15,
+        "lifeTime": 0.5,
+        "loopAnim": true,
+        "destroyOnHit": true,
+        "collisionGroup": "2",
+        "collisionMask": [
+          "1",
+          "player"
+        ],
+        "__collapse": true
+      },
+      "id": "161e582b-d308-4228-86ed-603a5937aa52"
+    },
+    {
+      "command": "EVENT_LAUNCH_PROJECTILE",
+      "args": {
+        "__section": "source",
+        "spriteSheetId": "dabca3e4-7f27-4eb7-8669-fc9020805f02",
+        "spriteStateId": "",
+        "actorId": "$self$",
+        "x": 0,
+        "y": 0,
+        "directionType": "direction",
+        "otherActorId": "$self$",
+        "direction": "right",
+        "angle": 0,
+        "angleVariable": "L0",
+        "targetActorId": "$self$",
+        "initialOffset": 0,
+        "speed": 2,
+        "animSpeed": 15,
+        "lifeTime": 0.5,
+        "loopAnim": true,
+        "destroyOnHit": true,
+        "collisionGroup": "2",
+        "collisionMask": [
+          "1",
+          "player"
+        ],
+        "__collapse": true
+      },
+      "id": "cf3ad462-f7c8-423e-b178-bb2a44f0cf15"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 6,
+  "y": 8,
+  "_index": 5
+}
